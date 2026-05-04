@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 59.99,
+      "stock": 25,
+      "rating": 4.5,
+      "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+      "image": "https://example.com/images/headphones.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Series 8",
+      "category": "Wearables",
+      "price": 129.99,
+      "stock": 18,
+      "rating": 4.3,
+      "description": "Track your fitness, heart rate, and notifications with this sleek smartwatch.",
+      "image": "https://example.com/images/smartwatch.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Mouse RGB",
+      "category": "Accessories",
+      "price": 29.99,
+      "stock": 40,
+      "rating": 4.6,
+      "description": "Ergonomic gaming mouse with customizable RGB lighting and high DPI sensor.",
+      "image": "https://example.com/images/mouse.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 79.99,
+      "stock": 30,
+      "rating": 4.7,
+      "description": "Durable mechanical keyboard with blue switches and backlight support.",
+      "image": "https://example.com/images/keyboard.jpg"
+    },
+    {
+      "id": 5,
+      "name": "4K Ultra HD Monitor",
+      "category": "Electronics",
+      "price": 299.99,
+      "stock": 12,
+      "rating": 4.8,
+      "description": "27-inch 4K monitor with stunning visuals and ultra-thin bezels.",
+      "image": "https://example.com/images/monitor.jpg"
+    }
+  ]
+}
