@@ -1,14 +1,5 @@
 import Product from "@/components/Product";
 
-export const generateStaticParams = async() => {
-    const res = await fetch("http://localhost:5004/products");
-    const products = await res.json();
-
-    return products.map(product => ({
-        
-    }))
-}
-
 const getProducts = async () => {
 //   const res = await fetch("http://localhost:5004/products", {cache: 'force-cache'});
   const res = await fetch("http://localhost:5004/products", {cache: 'no-store'});
