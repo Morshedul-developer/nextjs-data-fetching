@@ -37,11 +37,22 @@ const PostsPage = async () => {
 
   const posts = await postsRes.json();
   const users = await usersRes.json();
+  console.log(posts);
 
   return (
     <div>
-      <h2>Posts length: {posts.length}</h2>
-      <h2>Users length: {users.length}</h2>
+      <div>
+        <h2>Posts length: {posts.length}</h2>
+        <p>Posts:</p>
+        {posts.map((post) => (
+          <div key={post.id}>
+            <h4>Name: {post.title}</h4>
+          </div>
+        ))}
+      </div>
+      <div>
+        <h2>Users length: {users.length}</h2>
+      </div>
     </div>
   );
 };
