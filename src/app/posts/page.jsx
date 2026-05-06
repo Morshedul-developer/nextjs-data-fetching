@@ -50,8 +50,8 @@ const PostsPage = async () => {
           </div>
         ))}
       </div>
-      <div>
-        <h2>Users length: {users.length}</h2>
+      <div className="mt-5 border border-gray-200 rounded-2xl p-5">
+        <h2>Users Length: {users.length}</h2>
       </div>
     </div>
   );
