@@ -49,7 +49,7 @@ const PostsPage = async () => {
           </div>
         ))}
       </div>
-      <div className="mt-5 border border-gray-300 rounded-2xl p-5">
+      <div className="mt-5 border border-gray-300 rounded-2xl p-5 text-blue">
         <h2>Users Length: {users.length}</h2>
       </div>
     </div>
