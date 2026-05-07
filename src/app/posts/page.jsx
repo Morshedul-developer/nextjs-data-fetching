@@ -37,11 +37,10 @@ const PostsPage = async () => {
 
   const posts = await postsRes.json();
   const users = await usersRes.json();
-  console.log(posts);
 
   return (
     <div>
-      <div className="border border-gray-200 rounded-2xl p-5">
+      <div className="border border-gray-300 rounded-2xl p-5">
         <h2>Posts length: {posts.length}</h2>
         <p>Posts:</p>
         {posts.map((post) => (
@@ -50,7 +49,7 @@ const PostsPage = async () => {
           </div>
         ))}
       </div>
-      <div className="mt-5 border border-gray-200 rounded-2xl p-5">
+      <div className="mt-5 border border-gray-300 rounded-2xl p-5">
         <h2>Users Length: {users.length}</h2>
       </div>
     </div>
