@@ -40,7 +40,7 @@ const PostsPage = async () => {
 
   return (
     <div>
-      <div className="border border-gray-300 rounded-2xl p-5">
+      <div className="border border-gray-300 rounded-2xl p-5 text-blue-400">
         <h2>Posts length: {posts.length}</h2>
         <p>Posts:</p>
         {posts.map((post) => (
