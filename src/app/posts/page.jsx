@@ -40,7 +40,7 @@ const PostsPage = async () => {
 
   return (
     <div>
-      <div className="border border-gray-300 rounded-2xl p-5 text-blue-400">
+      <div className="border border-gray-400 rounded-2xl p-5 text-blue-400 ">
         <h2>Posts length: {posts.length}</h2>
         <p>Posts:</p>
         {posts.map((post) => (
@@ -49,7 +49,7 @@ const PostsPage = async () => {
           </div>
         ))}
       </div>
-      <div className="mt-5 border border-gray-300 rounded-2xl p-5 text-blue">
+      <div className="mt-5 border border-gray-400 rounded-2xl p-5 text-blue">
         <h2>Users Length: {users.length}</h2>
       </div>
     </div>
