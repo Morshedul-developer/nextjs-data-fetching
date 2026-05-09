@@ -45,7 +45,9 @@ const PostsPage = async () => {
         <p>Posts:</p>
         {posts.map((post) => (
           <div key={post.id}>
+            <h3>{post.id}</h3>
             <h4>Name: {post.title}</h4>
+            <p>{post.body}</p>
           </div>
         ))}
       </div>
