@@ -43,13 +43,15 @@ const PostsPage = async () => {
       <div className="border border-gray-400 rounded-2xl p-5 text-blue-500 ">
         <h2>Posts length: {posts.length}</h2>
         <p>Posts:</p>
-        {posts.map((post) => (
+        <div className="grid grid-cols-3 gap-4 p-6 shadow-md">
+          {posts.map((post) => (
           <div key={post.id}>
             <h3>{post.id}</h3>
             <h4>Name: {post.title}</h4>
             <p>{post.body}</p>
           </div>
         ))}
+        </div>
       </div>
       <div className="mt-5 border border-gray-400 rounded-2xl p-5 text-blue">
         <h2>Users Length: {users.length}</h2>
